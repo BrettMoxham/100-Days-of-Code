@@ -1,0 +1,89 @@
+---
+title: "07 08 2020 - HR Leaders"
+author: "Brett Moxham"
+date: "08/07/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Libraries
+```{r}
+library(tidyverse)
+library(Lahman)
+```
+
+```{r}
+
+cumsum_hr <- Batting %>% 
+  select(playerID, yearID, HR ) %>% 
+  group_by(playerID) %>% 
+  mutate(cumsum_hr = cumsum(HR)) %>% 
+  ungroup()
+```
+
+I followed the race chart example from [here](https://towardsdatascience.com/how-to-do-that-animated-race-bar-chart-57f3a8ff27a8).
+
+
+Create a rolling rank.
+
+```{r}
+ranked <- cumsum_hr %>% 
+  group_by(yearID) %>% 
+  mutate(rank = rank(-cumsum_hr)*1,
+         value_label = paste0(" ", playerID, ": "))  %>%  #may want to address age as a way to untie ties
+  filter(rank < 10) %>% 
+  ungroup()
+
+```
+This was my first attempt at creating a rank. I kept wracking my head as to why my plots weren't working. It's because our entries don't track all the way through to 2019. For instance ```r playerID``` ```r abercda01``` only has an entry for the year ```r 1871```. I need to find a way to fill out the ```rplayerID``` and ```r yearID``` all the way through to 2019 and back to 1871.  
+
+## Plot
+
+#```{r}
+ggplot(ranked, aes(
+  x = rank,
+  y = playerID,
+  label = playerID,
+  group = playerID,
+  fill = playerID
+)) +
+  geom_tile(aes(
+    y = cumsum_hr/2,
+    height = cumsum_hr,
+    width = 0.9), alpha = 0.8, show.legend = FALSE)+
+  geom_text(aes(
+    y =cumsum_hr,
+    label = value_label,
+    hjust = 0
+  )) +
+  coord_flip(clip = "off", expand = FALSE) +
+  scale_y_continuous(labels = scales::comma)+
+  scale_x_reverse() +
+  theme_minimal()+
+  #add manual themes
+  labs(
+    title = "Cumulative HR's Over the Years",
+    #caption = "Source: Lahman Database",
+    y = "",
+    x= ""
+    )+
+  gganimate::transition_states(yearID,
+                               transition_length = 4,
+                               state_length = 1,
+                               wrap = TRUE)+
+  gganimate::ease_aes("cubic-in-out")
+```
+
+
+
+```{r}
+
+```
+
+
+
+
+
