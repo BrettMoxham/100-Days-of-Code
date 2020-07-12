@@ -49,21 +49,79 @@ hr_full <-as_tibble(Batting %>%
 ```
 
 
-
-I followed the race chart example from [here](https://towardsdatascience.com/how-to-do-that-animated-race-bar-chart-57f3a8ff27a8).
-
-
-Create a rolling rank.
+## Create a rolling rank.
 
 ```{r}
+hr_ranked <- hr_full %>% 
+  arrange(playerID,yearID) %>% 
+  group_by(playerID) %>% 
+  mutate(hr_total = cumsum(HR)) %>% 
+  ungroup() %>% 
+  group_by(yearID) %>% 
+  mutate(rank_hr = min_rank(-hr_total)*1,
+         value_rel = hr_total/hr_total[rank_hr == 1],
+         value_label = paste0(" ", hr_total)) %>% 
+  filter(rank_hr <= 10) %>% 
+  ungroup()
 
 ```
-My first attempt at creating a rank went poorly. I kept wracking my head as to why my plots weren't working. It's because our entries don't track all the way through to 2019. For instance ```r playerID``` ```r abercda01``` only has an entry for the year ```r 1871```. I need to find a way to fill out the ```rplayerID``` and ```r yearID``` all the way through to 2019 and back to 1871.  
+My first attempt at creating a rank went poorly. I kept wracking my head as to why my plots weren't working. It's because our entries don't track all the way through to 2019. For instance ```r playerID``` ```r abercda01``` only has an entry for the year ```r 1871```. I need to find a way to fill out the ```rplayerID``` and ```r yearID``` all the way through to 2019 and back to 1871. The above is my attempt to work through my issue. I followed the race chart example from [here](https://towardsdatascience.com/how-to-do-that-animated-race-bar-chart-57f3a8ff27a8) and [here](https://www.r-bloggers.com/how-to-create-bar-race-animation-charts-in-r/) as a way to build the plot, and work through the required variables for the rankings. 
 
 ## Plot
 
 
+```{r}
+p <- ggplot(hr_ranked, aes(rank_hr, group = full_name, fill = as.factor(full_name), color = as.factor(full_name)))+
+  geom_tile(aes(
+    y = (hr_total)/2,
+    height = hr_total,
+    width = 0.9,
+    fill = "blue"
+  ), alpha = 0.8, color = NA)+
+  geom_text(aes(y = 0, label = paste(full_name, " ")),size = 12, vjust = 0.2, hjust = 1)+
+  geom_text(aes(y = hr_total, label = value_label, hjust = 0))+
+  coord_flip(clip = "off", expand = F)+
+  scale_y_continuous(labels = scales::comma)+
+  scale_x_reverse()+
+  guides(color = F, fill =F)
++
+    theme(
+      plot.title = element_text(color = "darkblue", face = "bold", hjust = 0 , size = 30),
+      axis.ticks.y = element_blank(),
+      axis.text.y = element_text(),
+      plot.margin = margin(2,2,1,16, "cm"))+
+    labs(
+      title = "{closest_state}",
+      x = "",
+      y = "Home Run Totals"
+      #,caption:" "
+      )
+
+p_anim <- p + labs(p,
+    title = "{closest_state}",
+    x = "",
+    y = "Home Run Totals"
+    #,caption:" "
+  )+
+    theme(
+      plot.title = element_text(color = "darkblue", face = "bold", hjust = 0 , size = 30),
+      axis.ticks.y = element_blank(),
+      axis.text.y = element_text(),
+      plot.margin = margin(2,2,1,16, "cm")
+    ) 
+  
+  
+  
+p_anim_comp <- p  +
+      gganimate::transition_reveal(yearID)+
+      gganimate::ease_aes("cubic-in-out")
+
+
+gganimate::animate(p_anim_comp)
+
+gganimate::anim_save("HR_total_failed.gif")
 ```
+
 
 
 
