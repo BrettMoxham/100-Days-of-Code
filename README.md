@@ -12,4 +12,4 @@ Day 4: Spent more time on the building the gif. Failed miserably ![see here](htt
 
 Day 5: Built out the final gif in the current project. Really happy with how it turned out. Learned a lot, ready to move on to the next project. Final gif found [here](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/gifs/HR_race.gif).
 
-Day 6: Worked on building out a custom theme for my plots moving forward. Going to look at building out a personal library so i have quick access to it. 
+Day 6: Worked on building out a [custom theme](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/07%2013%202020%20-%20Custom%20Theme.Rmd) for my plots moving forward. Going to look at building out a personal library so i have quick access to it. 
