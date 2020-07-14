@@ -1,0 +1,62 @@
+---
+title: "07-13-2020 Custom Theme Building"
+author: "Brett Moxham"
+date: "13/07/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r cars}
+library(tidyverse)
+library(extrafont)
+og <- mtcars %>% 
+  count(cyl) %>% 
+  ggplot(aes(cyl, n))+
+  geom_col()+
+  theme_bw()
+```
+
+
+
+```{r}
+theme_brett <- function(){
+  
+  theme_minimal() %+replace%
+  theme(
+    
+    panel.grid.major = element_line(linetype = "dotted", color= "gray48"),
+    panel.grid.minor = element_line(linetype = "dotted", size = rel(.4), color = "gray48"),
+    axis.ticks = element_blank(),
+    
+    plot.background = element_rect(fill = "wheat", color = "wheat"),
+    panel.border = element_blank(),
+    axis.line = element_line(),
+    plot.title = element_text(size = 25, face = "bold", vjust = 1.5 ),
+    plot.subtitle = element_text(size = 11, face ="italic", vjust = 1),
+    plot.caption = element_text(size = 12, hjust = 1),
+    axis.title = element_text(size = 9),
+    axis.text = element_text(size = 10),
+    #axis.text.x = element_text(margin = margin (5, b = 10))
+    
+    )  
+}
+```
+
+
+```{r}
+new <- mtcars %>% 
+  count(cyl) %>% 
+  ggplot(aes(cyl, n))+
+  geom_col()+
+  theme_brett()+
+  labs(
+    title = "test",
+    subtitle = "sub test",
+    caption ="test"
+  )
+```
+
