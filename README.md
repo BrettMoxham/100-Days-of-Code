@@ -14,4 +14,4 @@ Day 5: Built out the final gif in the current project. Really happy with how it 
 
 Day 6: Worked on building out a [custom theme](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/07%2013%202020%20-%20Custom%20Theme.Rmd) for my plots moving forward. Going to look at building out a personal library so i have quick access to it. 
 
-Day 7: Learned about developing a personal library. Put my custom theme in so I can use it going forward. 
+Day 7: Learned about developing a personal library. Put my custom theme in so I can use it going forward. Followed the tutorial from (Fong Chun Chan)[https://tinyheero.github.io/jekyll/update/2015/07/26/making-your-first-R-package.html]. Good first week! Ready for the next challenge.
