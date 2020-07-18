@@ -17,3 +17,5 @@ Day 6: Worked on building out a [custom theme](https://github.com/BrettMoxham/10
 Day 7: Learned about developing a personal library. Put my custom theme in so I can use it going forward. Followed the tutorial from [Fong Chun Chan](https://tinyheero.github.io/jekyll/update/2015/07/26/making-your-first-R-package.html). Good first week! Ready for the next challenge.
 
 Day 8: (07 17 2020) Wasn't able to work the last 2 days. Ready to build out a new streak. Working on building out a data viz based on the Roman Emperor data set from Tidy Tuesday. 
+
+Day 9: Learned about geom_segments and combining with geom_labels. Looking at how to stop overlapping on the segments. 
