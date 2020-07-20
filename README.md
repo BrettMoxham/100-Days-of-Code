@@ -10,7 +10,7 @@ Day 3: Worked on the player/yearID issue that had me stumped. Pretty sure i got 
 
 Day 4: Spent more time on the building the gif. Failed miserably ![see here](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/HR_total_failed.gif) Still going to power through! Going to attempt to follow the code from Jon Harmon - https://github.com/jonthegeek/tidytuesday/blob/master/jon/2019-36/code.R.
 
-Day 5: Built out the final gif in the current project. Really happy with how it turned out. Learned a lot, ready to move on to the next project. Final gif found [here](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/gifs/HR_race.gif).
+Day 5: Built out the final gif in the current project. Really happy with how it turned out. Learned a lot, ready to move on to the next project. Final gif found [!here](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/gifs/HR_race.gif).
 
 Day 6: Worked on building out a [custom theme](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/07%2013%202020%20-%20Custom%20Theme.Rmd) for my plots moving forward. Going to look at building out a personal library so i have quick access to it. 
 
@@ -20,4 +20,5 @@ Day 8: (07 17 2020) Wasn't able to work the last 2 days. Ready to build out a ne
 
 Day 9: Learned about geom_segments and combining with geom_labels. Looking at how to stop overlapping on the segments. 
 
-Day 10: Finished my visualiztion on the Roman Emperor data set from Tidy Tuesday. Utilized Plotly to make the data interactive. I think it worked out pretty well. [<img src="https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/Roman_Emperors/p_2.png" width ="250" height = "250">](https://plotly.com/~bmox09/1/)
+Day 10: Finished my visualiztion on the Roman Emperor data set from Tidy Tuesday. Utilized Plotly to make the data interactive. I think it worked out pretty well. 
+[<img src="https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/Roman_Emperors/p_2.png" width ="250" height = "250">](https://plotly.com/~bmox09/1/)
