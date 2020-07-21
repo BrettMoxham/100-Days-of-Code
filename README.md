@@ -22,3 +22,5 @@ Day 9: Learned about geom_segments and combining with geom_labels. Looking at ho
 
 Day 10: Finished my visualiztion on the Roman Emperor data set from Tidy Tuesday. Utilized Plotly to make the data interactive. I think it worked out pretty well. <br>
 [<img src="https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/Roman_Emperors/p_2.png" width ="250" height = "250">](https://plotly.com/~bmox09/1/)
+
+Day 11: Worked on learning data cleaning. Case_when comes in handy here. Also learning the proper way to Google for answers to questions i may have. 
