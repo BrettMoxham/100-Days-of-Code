@@ -28,3 +28,5 @@ Day 11: Worked on learning data cleaning. Case_when comes in handy here. Also le
 Day 12: Wasn't super motivated today. Was a long day at work. Still cracked open the laptop and gave it a go. Every day counts and having broken a streak before, i didn't want to do that again so soon.
 
 Day 13: Worked on my viz from yesterday, but went off in an entirely different direction that i had originally planned. Also found the gghighlight package and experimented with that!
+
+Day 14: Super informative and productive day. Learned lots about annoations. Hoping to have the current viz project finished in the next few days!
