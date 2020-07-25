@@ -20,7 +20,7 @@ Day 8: (07 17 2020) Wasn't able to work the last 2 days. Ready to build out a ne
 
 Day 9: Learned about geom_segments and combining with geom_labels. Looking at how to stop overlapping on the segments. 
 
-Day 10: Finished my visualiztion on the Roman Emperor data set from Tidy Tuesday. Utilized Plotly to make the data interactive. I think it worked out pretty well. <br>
+[Day 10](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/07%2017%202020%20-%20Roman%20Emperors.rmd): Finished my visualiztion on the Roman Emperor data set from Tidy Tuesday. Utilized Plotly to make the data interactive. I think it worked out pretty well. <br>
 [<img src="https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/Roman_Emperors/p_2.png" width ="250" height = "250">](https://plotly.com/~bmox09/1/)
 
 Day 11: Worked on learning data cleaning. Case_when comes in handy here. Also learning the proper way to Google for answers to questions i may have. 
