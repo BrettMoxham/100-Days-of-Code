@@ -30,3 +30,5 @@ Day 12: Wasn't super motivated today. Was a long day at work. Still cracked open
 Day 13: Worked on my viz from yesterday, but went off in an entirely different direction that i had originally planned. Also found the gghighlight package and experimented with that!
 
 Day 14: Super informative and productive day. Learned lots about annoations. Hoping to have the current viz project finished in the next few days!
+
+Day 16: Missed an update from day 15, sorry. Working on combining multiple plots into 1 visualization. Really close to having it all together. Focusing on the 80/20 rule, so its not perfect, but the bones are there!
