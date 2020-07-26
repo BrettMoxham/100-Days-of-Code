@@ -32,3 +32,6 @@ Day 13: Worked on my viz from yesterday, but went off in an entirely different d
 Day 14: Super informative and productive day. Learned lots about annoations. Hoping to have the current viz project finished in the next few days!
 
 Day 16: Missed an update from day 15, sorry. Working on combining multiple plots into 1 visualization. Really close to having it all together. Focusing on the 80/20 rule, so its not perfect, but the bones are there!
+
+[Day 17:](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/07%2020%202020%20-%20Rappers.Rmd) Finally built out my Rappers png. Learned a lot in terms of themes and displaying mutiple different plots. This project went way off from where i started but I'm glad it did. Is the png perfect? No, but following the 80/20 rule I'm very happy with it. <br>
+[<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/Rapper/07-26-2020-full_plot_cowplot.png" width = "250" height = "250">](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/Rapper/07-26-2020-full_plot_cowplot.png)
