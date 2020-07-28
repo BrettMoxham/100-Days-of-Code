@@ -35,3 +35,5 @@ Day 16: Missed an update from day 15, sorry. Working on combining multiple plots
 
 [Day 17:](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/07%2020%202020%20-%20Rappers.Rmd) Finally built out my Rappers png. Learned a lot in terms of themes and displaying mutiple different plots. This project went way off from where i started but I'm glad it did. Is the png perfect? No, but following the 80/20 rule I'm very happy with it. <br>
 [<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/Rapper/07-26-2020-full_plot_cowplot.png" width = "1000" height = "500">](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/Rapper/07-26-2020-full_plot_cowplot.png)
+
+Day 18: Began working on my contribution to this weeks Tidy Tuesday.
