@@ -42,4 +42,4 @@ Day 18: Began working on my contribution to this weeks Tidy Tuesday.
 [<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/PalmerPenguins/scatter.png" width = "500" height = "500">](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/PalmerPenguins/scatter.png)
 
 [Day 20:](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/07%2009%202020%20-%20Joe%20Kelly.Rmd) Graphed Joe Kelly suspension from the MLB, and learned about annotations and how to insert an image into my plots. <br>
-[<img source = "https://github.com/BrettMoxham/100-Days-of-Code/blob/master/images/Joe%20Kelly/Joe_plot.png" width = "1000", height ="500">](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/images/Joe%20Kelly/Joe_plot.png)
+[<img source = "https://github.com/BrettMoxham/100-Days-of-Code/blob/master/images/Joe%20Kelly/Joe_plot.png" width = "1000" height ="500">](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/images/Joe%20Kelly/Joe_plot.png)
