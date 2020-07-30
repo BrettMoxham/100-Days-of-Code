@@ -39,7 +39,7 @@ Day 16: Missed an update from day 15, sorry. Working on combining multiple plots
 Day 18: Began working on my contribution to this weeks Tidy Tuesday.
 
 [Day 19](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/07%2027%202020%20-%20TT%20-%20Palmer%20Penguins.Rmd): Submitted my first contribution to Tidy Tuesday. Looked at bodymass vs flipper length in Palmer Station Penguins <br>
-[<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/PalmerPenguins/scatter.png" width = "500" height = "1000">](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/PalmerPenguins/scatter.png)
+[<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/PalmerPenguins/scatter.png" width = "1000" height = "500">](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/PalmerPenguins/scatter.png)
 
 [Day 20:](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/07%2009%202020%20-%20Joe%20Kelly.Rmd) Graphed Joe Kelly suspension from the MLB, and learned about annotations and how to insert an image into my plots. <br>
 [<img src = "https://github.com/BrettMoxham/100-Days-of-Code/blob/master/images/Joe%20Kelly/Joe_plot.png" width = "1000" height ="500">](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/images/Joe%20Kelly/Joe_plot.png)
