@@ -45,3 +45,5 @@ Day 18: Began working on my contribution to this weeks Tidy Tuesday.
 [<img src = "https://github.com/BrettMoxham/100-Days-of-Code/blob/master/images/Joe%20Kelly/Joe_plot.png" width = "1000" height ="500">](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/images/Joe%20Kelly/Joe_plot.png)
 --
 Day 21: 08-04-2020 Was off the grid for a few days. Started looking at SQL with SQLBolt. 
+
+Day 22: Worked on building out a simple blog to help display future projects. Learning about blogdown and Hugo.
