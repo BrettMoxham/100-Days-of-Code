@@ -47,3 +47,5 @@ Day 18: Began working on my contribution to this weeks Tidy Tuesday.
 Day 21: 08-04-2020 Was off the grid for a few days. Started looking at SQL with SQLBolt. 
 
 Day 22: Worked on building out a simple blog to help display future projects. Learning about blogdown and Hugo.
+
+Day 23: Introducing my personal blog/portfolio website. https://brettmoxham.netlify.app/
