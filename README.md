@@ -49,3 +49,7 @@ Day 21: 08-04-2020 Was off the grid for a few days. Started looking at SQL with 
 Day 22: Worked on building out a simple blog to help display future projects. Learning about blogdown and Hugo.
 
 Day 23: Introducing my personal blog/portfolio website. https://brettmoxham.netlify.app/
+
+Day 24/25: Worked on this weeks contribution for Tidy Tuesday, and my first blog post to go on my website. <br>
+[<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/European_Energy/country.png" width = "1000" height ="500">](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/08-07-2020---TT---European-Energy.Rmd)
+
