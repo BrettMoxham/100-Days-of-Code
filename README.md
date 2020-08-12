@@ -53,3 +53,7 @@ Day 23: Introducing my personal blog/portfolio website. https://brettmoxham.netl
 Day 24/25: Worked on this weeks contribution for Tidy Tuesday, and my first blog post to go on my website. <br>
 [<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/European_Energy/country.png" width = "1000" height ="500">](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/08-07-2020---TT---European-Energy.Rmd)
 
+Day 28: Built out a viz for this weeks Tidy Tuesday dataset. Learned about scale_reverse, and how you can combine it with a break to change the scale on your plot.  <br>
+[<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/Avatar/avatar_heatmap.png" width = "1000" height ="500">](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/08-10-2020-TT-Avatar.Rmd)
+
+
