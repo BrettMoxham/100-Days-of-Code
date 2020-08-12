@@ -34,15 +34,15 @@ Day 14: Super informative and productive day. Learned lots about annoations. Hop
 Day 16: Missed an update from day 15, sorry. Working on combining multiple plots into 1 visualization. Really close to having it all together. Focusing on the 80/20 rule, so its not perfect, but the bones are there!
 
 [Day 17:](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/07%2020%202020%20-%20Rappers.Rmd) Finally built out my Rappers png. Learned a lot in terms of themes and displaying mutiple different plots. This project went way off from where i started but I'm glad it did. Is the png perfect? No, but following the 80/20 rule I'm very happy with it. <br>
-[<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/Rapper/07-26-2020-full_plot_cowplot.png" width = "1000" height = "500">](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/Rapper/07-26-2020-full_plot_cowplot.png)
+[<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/Rapper/07-26-2020-full_plot_cowplot.png" width = "1000" height = "750">](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/Rapper/07-26-2020-full_plot_cowplot.png)
 
 Day 18: Began working on my contribution to this weeks Tidy Tuesday.
 
 [Day 19](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/07%2027%202020%20-%20TT%20-%20Palmer%20Penguins.Rmd): Submitted my first contribution to Tidy Tuesday. Looked at bodymass vs flipper length in Palmer Station Penguins <br>
-[<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/PalmerPenguins/scatter.png" width = "1000" height = "500">](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/PalmerPenguins/scatter.png)
+[<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/PalmerPenguins/scatter.png" width = "1000" height = "750">](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/PalmerPenguins/scatter.png)
 
 [Day 20:](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/07%2009%202020%20-%20Joe%20Kelly.Rmd) Graphed Joe Kelly suspension from the MLB, and learned about annotations and how to insert an image into my plots. <br>
-[<img src = "https://github.com/BrettMoxham/100-Days-of-Code/blob/master/images/Joe%20Kelly/Joe_plot.png" width = "1000" height ="500">](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/images/Joe%20Kelly/Joe_plot.png)
+[<img src = "https://github.com/BrettMoxham/100-Days-of-Code/blob/master/images/Joe%20Kelly/Joe_plot.png" width = "1000" height ="750">](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/images/Joe%20Kelly/Joe_plot.png)
 --
 Day 21: 08-04-2020 Was off the grid for a few days. Started looking at SQL with SQLBolt. 
 
@@ -51,9 +51,9 @@ Day 22: Worked on building out a simple blog to help display future projects. Le
 Day 23: Introducing my personal blog/portfolio website. https://brettmoxham.netlify.app/
 
 Day 24/25: Worked on this weeks contribution for Tidy Tuesday, and my first blog post to go on my website. <br>
-[<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/European_Energy/country.png" width = "1000" height ="500">](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/08-07-2020---TT---European-Energy.Rmd)
+[<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/European_Energy/country.png" width = "1000" height ="750">](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/08-07-2020---TT---European-Energy.Rmd)
 
 Day 28: Built out a viz for this weeks Tidy Tuesday dataset. Learned about scale_reverse, and how you can combine it with a break to change the scale on your plot.  <br>
-[<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/Avatar/avatar_heatmap.png" width = "1000" height ="500">](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/08-10-2020-TT-Avatar.Rmd)
+[<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/Avatar/avatar_heatmap.png" width = "1000" height ="750>](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/08-10-2020-TT-Avatar.Rmd)
 
 
