@@ -56,4 +56,6 @@ Day 24/25: Worked on this weeks contribution for Tidy Tuesday, and my first blog
 Day 28: Built out a viz for this weeks Tidy Tuesday dataset. Learned about scale_reverse, and how you can combine it with a break to change the scale on your plot.  <br>
 [<img src = "https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/Images/Avatar/avatar_heatmap.png" width = "1000" height ="750">](https://github.com/BrettMoxham/Tidy-Tuesday/blob/master/08-10-2020-TT-Avatar.Rmd)
 
+Day 29: Took a break from R to work on Codewars and SQL!
+
 
