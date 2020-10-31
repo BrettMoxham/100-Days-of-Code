@@ -59,6 +59,6 @@ Day 28: Built out a viz for this weeks Tidy Tuesday dataset. Learned about scale
 Day 29: Took a break from R to work on Codewars and SQL!
 
 Day 30: This one was fun. Worked on building out a quick graph looking at FIP vs ERA. Borrowed from StatsbyLopez for the graph. <br>
-[<img src = "https://github.com/BrettMoxham/Random-Projects/blob/master/Baseball/ERA_FIP_by_team/plot.png" width = "1000" height = "750">](https://github.com/BrettMoxham/Random-Projects/blob/master/Baseball/ERA_FIP_by_team/ERA_FIP.R)
+[<img src = "https://github.com/BrettMoxham/Random-Projects/blob/master/Baseball/ERA_FIP_by_team/er_fip_plot.png" width = "1000" height = "750">](https://github.com/BrettMoxham/Random-Projects/blob/master/Baseball/ERA_FIP_by_team/ERA_FIP.R)
 
 
