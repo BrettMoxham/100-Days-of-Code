@@ -2,6 +2,8 @@
 Work for my 100 Days of Code Challenge
 Started: July 8th 2020
 
+Update: I had started working on some Master level courses on Edx. The end goal of this is to be able to apply for a master program in the next few years. As a result this 100 Days of Code tracking, fell on the wayside. Understand that though i did not track it, i absolutely finished the programs, touching R for well over 100 days from August to December. Moving forward i will be hopefully [blogging](brettmoxham.netlify.app/) a lot more. The goal is to contribute to the Tidy Tuesday events much more frequently, as well as building out some data science projects. I will be continuing to take courses from Edx as well. Thanks for following along!
+
 Day 1: Started work on building out a race chart for cumulative HR from the Batters dataset from Sean Lahman. Code for this project can be found [here](https://github.com/BrettMoxham/100-Days-of-Code/blob/master/07%2008%202020%20-%20HR%20Race.Rmd)
 
 Day 2: Continued work on the race chart. Kept wracking my head trying to figure out why my basic graph wasn't annimating correctly. Realised that the players were not carried all the way through all potential years. Will have to adjust data set to fix this. 
